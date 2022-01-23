@@ -1,5 +1,5 @@
 .oddnum {
-    background-color: #ffa2f3;
+    background-color: #ffa2e3;
     font-family: "Verdana", "DejaVu", sans-serif;
 }
 
@@ -10,4 +10,10 @@
 
 .sizechange {
     font-size: 24px
+}
+
+#twoid {
+    background-color: rgb(133, 250, 143);
+    font-size: 24px;
+    font-weight: bold;
 }
