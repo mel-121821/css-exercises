@@ -8,13 +8,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <!--When 2 rules are tied, whichever rule was defined last is the winner (small-para should be defined last to override the para rule)-->
   <p class="para">I'm just a simple paragraph!</p>
   <p class="para small-para">I'm a smaller paragraph!</p>
 
+  <!--classes for both buttons contained the word button, therefore the rule defined last (.button) overrides the (.confirm) class. Changed the selector in CSS to the (.cancel) class-->
   <button id="confirm-button" class="button confirm">Confirm</button>
   <button id="cancel-button" class="button cancel">Cancel</button>
 
   <div class="text">I'm not related to those divs down there.</div>
+
+  <!--Used descendant combinator, which will select the child class only if nested in the text class-->
   <div class="text">I have a child!
     <div class="text child">My ancestor is so embarrassing.</div>
   </div>
