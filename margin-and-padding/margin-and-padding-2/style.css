@@ -5,15 +5,16 @@ body {
 
 .card {
   width: 400px;
-  padding: 10px;
+  padding: 8px;
   background: #fff;
   margin: 8px auto;
 }
 
 .title {
   padding: 8px;
-  margin: 10px;
-  font: 16px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 16px;
   background: #e3f4ff;
 }
 
@@ -22,13 +23,12 @@ body {
   padding-right: 8px;
   padding-bottom: 16px;
   padding-left: 8px;
-  margin: 8px;
+  margin-bottom: 8px;
   background: #e3f4ff;
 }
 
 .button-container {
-  display: block;
-  margin: 8px;
+  display: block;  
   padding: 8px;
   text-align: center;
   background: #e3f4ff;
@@ -36,10 +36,8 @@ body {
 
 button {
   display: block;
-  margin-left: 120px;
-  padding: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin: 0 auto;
+  padding: 8px 24px;
   background: white;
   border: 1px solid #eee;
 }
