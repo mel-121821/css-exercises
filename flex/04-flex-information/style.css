@@ -1,6 +1,28 @@
+/* Instead of aligning text to center under the title, plant and berries/chilli/etc. classes, place it under the body type instead to center all text in the body.*/
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
+
+.plants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+  /* This margin could also be placed under the title */
+  gap: 52px;
+}
+
+/* For next time: one class can be used for multiple items, .berries, .chilli etc. can all be placed under the same class*/
+
+.berries,
+.chilli,
+.pepper,
+.saffron {
+  width: 200px;
+
+}
+
 
 img {
   width: 100px;
@@ -10,6 +32,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  /* margin-bottom: 32px:  <-- Could be placed here instead of on top of plant container. */
 }
 
 /* do not edit this footer */
